@@ -8,12 +8,6 @@ public class BagofChips{
     String flavor;
     String brand;
 
-    //Constructor
-     public BagofChips()
-     {
-
-     }
-
     //beaviors which are methods
     public void opened(int flag)
      {
