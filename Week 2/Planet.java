@@ -29,6 +29,7 @@ class Planet
 
 	public void display()
 	{
+        int i;//local variable
 		System.out.println("Radius "+ radius);//10
 		System.out.println("Name " + name);//Dunya
 		System.out.println("Long "+ g);	//10					
@@ -38,10 +39,15 @@ class Planet
 		radius = 10;	//usage
 		name = "Dunya";	//usage	
 	}
+    public static void Displayg()
+    {
+        System.out.println("gravity constant = " + g);
+    }
 	public static void main(String [] args)		
 	{
 		Planet p = new Planet("Earth", 78.0); // creation
         p.display();
+    Displayg();
 		// p. initialize();		//usage
 		// p.display();		//usage
         // Planet p2 = new Planet(); // creation
