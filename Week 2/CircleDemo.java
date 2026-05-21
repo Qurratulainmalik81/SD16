@@ -1,6 +1,10 @@
 public class CircleDemo{
     public static void main(String args[])
     {
+       
+        double myDouble = 10.5;
+         int myInt =(int)myDouble;
+
         Circle c1 = new Circle();
         Circle c2 = new Circle(4.0);
         Circle c3 = new Circle(c2);

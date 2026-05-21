@@ -1,6 +1,7 @@
 public class Circle{
     private String color = "red";
     private double radius;
+    
    // private static double PI = 3.14;
     //Constructors
     public Circle()
@@ -38,11 +39,13 @@ public class Circle{
     }
     public void setRadius(double r)
     {
+       
         this.radius = r;
     }
     public double getArea()
     {
         return (Math.PI * this.radius * this.radius);
+        //
     }
 
     // public static void displayPi()
@@ -54,3 +57,4 @@ public class Circle{
         return ("Circe Radius = " + this.radius + " has color = " + this.color);
     }
 }
+//
