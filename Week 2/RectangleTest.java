@@ -3,6 +3,6 @@ public class RectangleTest {
     {
         Rectangle r1 = new Rectangle(2.5f,4.5f);
         System.out.println(r1);
-          System.out.println("Area = " + r1.getArea());
+        System.out.println("Area = " + r1.getArea());
     }
 }
