@@ -7,7 +7,7 @@ public class CheckingAccount extends BankAccount {
     }
     public CheckingAccount(double interest)
     {
-        this.myInterest = interest;
+        myInterest = interest;
     }
     public CheckingAccount(double interest, double bal)
     {

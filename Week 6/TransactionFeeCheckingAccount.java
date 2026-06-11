@@ -12,7 +12,7 @@ super(interest,bal);
 
 //Can add methods of your choice
   public void chargeFee() {
-    super.withdraw(FEE);
+    super.withdraw(0.0);
   }
 
   public void withdraw(double amount)
