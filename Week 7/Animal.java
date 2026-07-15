@@ -4,7 +4,7 @@
 //4. can have instant variables
 //5. Abstract classes may or may not have abstract methods
 //6. Abstract can have instance methods
-public abstract class Animal{
+public abstract class Animal implements AnimalInt{
     private String name;
     Animal()
     {
@@ -21,6 +21,12 @@ public abstract class Animal{
     {
         System.out.println("Name = " + this.name);
     }
+    public void sleep()
+    {//
+        }
+    public void movable()
+    {//
+        }
 
 
 }
